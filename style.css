@@ -1,0 +1,1213 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Open sans';
+}
+p{
+  line-height: 2;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.button{
+  font-family:'Open sans';
+  font-weight: bold;
+}
+header{
+  
+  background-color: #E14546;
+  align-items: center;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.header-logo{
+  background:url('Material/stockbilder/Arbetsprov.jpg') no-repeat center center;
+  width: 20%;
+  height: 100%;
+  background-size:contain;
+  align-self: center;
+  
+
+}
+
+.header-logo img{
+  padding:20px 0
+}
+
+.fixed-position {
+  overflow: hidden;
+} 
+
+
+
+  nav{
+    
+    align-self: center;
+  }
+
+
+  ul {
+    
+    display: inline;    
+    list-style: none;
+    
+  }
+  
+   ul li {
+    
+    display: inline-block;
+    
+    position: relative;
+    
+    
+  } 
+  
+  /* ul li:hover {
+    background: #c53e3e;
+    color: #fff;
+  } */
+
+  ul li a{
+    display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 83px 10px 10px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  }
+
+  
+
+  ul li:hover a { 
+    background: #BD2F2E;
+}
+  
+  ul li ul {
+    padding: 0;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 150px;    
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    
+  }
+  
+  ul>li:last-child ul {
+    right: 0;
+    left: auto;
+    top: 113px;
+  }
+  
+  ul li ul li {
+    background: #BD2F2E;
+    display: block;
+    color: #fff;
+    
+  }
+
+  .over li{
+    z-index: 2;
+    
+
+  }
+
+  .over a{
+    padding: 10px;
+  }
+
+  
+  
+  ul li ul li a:hover {
+    background-color:  #E14546;
+    color: #fff;
+  }
+  
+  ul li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+
+  
+
+
+
+  
+
+
+  
+
+  /*-------------------header----------------------------------*/
+
+.first{
+  background: url('Material/stockbilder/shutterstock_180605549.jpg') no-repeat center center;   
+  background-size: cover;  
+  background-position:center;  
+  height:50vh; 
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper{
+  padding: 100px 120px;
+  
+}
+
+.second .second-orginize{
+  display:grid;
+
+}
+
+.second-right-section .row{
+  display:flex;  
+  padding: 10px 0;
+}
+
+.row-1 {
+  width: 200px; /* I took the width from your post and placed it in css */
+  padding: 0 10px 0 0;
+}
+
+/* This will style any <img> element in .parent div */
+.row-1 img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+.red{
+  color:red;
+}
+
+#border{
+  border-bottom: 1px solid rgb(194, 194, 194);
+  border-top: 1px solid  rgb(194, 194, 194);
+}
+
+
+
+
+
+
+    /*-----------------------------------------------------------------------*/
+  
+
+
+
+
+
+
+
+.third{
+    background-color:#F4F4F4;
+    
+}
+
+.third .third-flex{
+  display:flex;
+  padding: 20px 100px;  
+  justify-content: center;
+  
+  bottom: 80px;
+    position: relative;
+  
+  
+}
+
+.third .third-flex .box{
+  background-color:#E14546;
+  width:300px;
+  height: 100%;
+  text-align:center;
+  margin: 0 20px;
+  border-radius: 25px;
+  position:relative;  
+  text-align: -webkit-center;
+}
+
+.box h2, .box h3, .box p{
+  
+  padding:20px 0;
+}
+
+.box .box-padding{
+  padding:20px 0;
+}
+
+.box-1 button{
+  background-color: white;
+  color:black;
+}
+
+.trophy-image-div{
+  position: absolute;
+}
+
+
+
+.trophy-image-div i{
+  position: relative;    
+    bottom: 60px;
+}
+
+.box-2{
+  display: flex;
+    justify-content: center;
+}
+
+.box-2-inner{
+  position: relative;
+  bottom:0;
+  background-color:rgb(255, 255, 255);  
+  text-align:center;
+  margin:70px 4px 4px 4px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  
+  
+
+}
+
+ .third-flex-bottom{
+   display:flex;
+ }
+
+
+
+ .third-orginize{
+  
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.third-right-section{
+  align-self: center;
+  justify-self: center;
+  display: flex;
+}
+
+
+
+
+ button {
+  border-radius: 4px;
+  background-color: #E14546;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  ;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+    }  
+
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+
+    
+    
+    .input-field {
+      position: relative;      
+      height: 44px;
+      line-height: 44px;
+    }
+    .input-field label {
+      position: relative;
+      top: -50px;
+      left: 9px;
+      width: 100%;
+      color: #d3d3d3;
+      transition: 0.2s all;
+      cursor: text;
+    }
+    .third input {
+      width: 100%;
+      border: 0;
+      outline: 0;
+      padding: 8px 0;
+      background-color: black;
+      
+      box-shadow: none;
+      color: #111;
+      padding:20px 0;
+    }
+    input:invalid {
+      outline: 0;
+      
+    }
+    
+    .third input:focus~label,
+    .third input:valid~label {      
+      top: -95px;
+      color: #E14546;
+    }
+
+
+
+    
+    
+
+
+    .third-flex button {
+      border-radius: 4px;      
+      border: none;      
+      text-align: center;      
+      padding: 20px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;      
+    }
+    
+    .active, .collapsible:hover {
+      background-color: rgb(214, 214, 214);
+    }
+
+    .active, .box-2 .collapsible:hover{
+      background-color:  #BD2F2E;
+    }
+    
+    .collapsible:after {
+      content: '\002B';
+      color: white;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+
+    
+
+    .box-1 .collapsible:after{
+      color:black;
+    }
+
+    .box-1 button{
+      color: #E14546;
+    }
+    
+    .active:after {
+      content: "\2212";
+    }
+    
+    .content {
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: #E14546;
+    }
+
+    .box-2 .content{
+      background-color: white;
+      
+    }
+    
+
+ /*-----------------------------------------------------------------------*/
+
+
+
+
+
+.fourth{
+    background-color:#E14546;    
+    display:grid;
+    grid-template-columns: 1fr 1fr;  
+}
+
+.fourth img{
+  vertical-align: bottom;
+  
+}
+
+.fourth-bottom{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+
+
+
+
+ /*-----------------------------------------------------------------------*/
+
+footer{
+  background-color: black;  
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    padding:40px;
+    text-align: center;
+}
+
+footer img{  
+  width: 30%; 
+
+}
+
+footer nav{
+  padding:40px 0;
+  text-align: center;
+
+}
+
+footer nav a{
+  list-style-type: none;
+  text-decoration: none;;
+  margin: 0;
+  padding: 0;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  
+}
+
+footer nav a:hover {
+  border-bottom: 3px solid  #E14546;
+}
+
+footer h2{
+  padding:30px 0;
+  color:#767676;
+}
+
+
+
+
+
+
+
+/*------------------------------------Contact page------------------------------*/
+.contact-first{
+  background-color:lightgrey;
+  background: url('Material/stockbilder/A-modern-office-space-130046-pixahive.jpg') no-repeat center center;   
+  background-size: cover;  
+  background-position:center;  
+  
+  
+  
+}
+
+.inner-dim{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+}
+
+
+.contact-first-grid{
+  display:grid;
+  
+  grid-gap: 50px 20px;
+  
+  
+}
+
+.contact-first .wrapper h2,
+.contact-first .wrapper p{
+  color:white;
+}
+
+.contact-first .wrapper div p{
+  color:black;
+}
+
+
+
+.contact-first-grid div{
+  background-color:lightgrey;
+}
+
+
+
+
+.contact-first .wrapper{
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+  
+}
+
+.contact-first-grid div {
+  text-align:center;
+  padding:20px 0;
+  transition: all 0.5s ease;
+}
+
+/* .contact-first-grid div:nth-child(odd) {
+  background-color:rgb(230, 228, 228);
+} */
+
+
+
+
+
+
+.contact-second .contact-flex{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.contact-info{
+  justify-self: center;
+}
+
+.contact-info-flex{
+  
+}
+
+.contact-info-flex div{
+  display:flex;
+  padding: 20px 0;
+  
+  
+}
+
+.contact-form{
+  width:300px;
+}
+
+.contact-img{
+  padding: 0 10px;
+}
+
+
+.circle-icon {
+  background: #E14546;
+  padding:30px;
+  border-radius: 50%;
+}
+
+.contact-form button{
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:100%;
+
+} 
+
+.contact-second .wrapper h2{
+  text-align: center;
+    padding: 0 0 50px 0;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:426px){
+  .contact-first-grid{
+  
+  grid-template-columns: 1fr;
+  padding: 50px 0;
+}
+
+}
+
+@media(min-width:427px) and (max-width:576px){
+  .contact-first-grid{
+  
+    grid-template-columns: 1fr 1fr ;
+    padding: 50px 0;
+  }
+}
+
+@media(min-width:577px) and (max-width:991px){
+  .contact-first-grid{
+  
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 0;
+  }
+
+  
+}
+
+
+@media(max-width:700px){
+  .contact-second .contact-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+}
+
+
+
+
+
+@media(min-width:992px){
+
+  .contact-first-grid{
+  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px 20%;
+  }
+
+  
+
+  .contact-first-grid{    
+    grid-gap: 50px 20px;
+    
+  }
+  .contact-form {
+    width: 500px;
+  }
+
+  .third-right-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------grid-div-hover------------------*/
+
+.style_prevu_kit{
+  
+}
+
+.style_prevu_kit:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+
+
+/*------------contact form---------------------------------*/
+
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+.contact-container input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+}
+
+/* Style the submit button with a specific background color etc */
+.contact-container input[type=submit] {
+  background-color: #E14546;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.contact-container input[type=submit]:hover {
+  background-color: #E14546;
+}
+
+/* Add a background color and some padding around the form */
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:426px){
+  .nav {
+    -webkit-transition: left 0.5s ease;
+    -moz-transition: left 0.5s ease;
+    -ms-transition: left 0.5s ease;
+    -o-transition: left 0.5s ease;
+    transition: right 0.5s ease;
+    background: #E14546;
+    color: white;
+    cursor: pointer;
+    font-size: 32px;
+    height: 60vh;
+    right: -24rem;
+    
+    position: fixed;
+    top: 90px;
+    width: 144px;
+    z-index: 1;
+  }
+  
+  .nav.expanded { 
+    right: 0;
+    text-align: center; 
+  }
+  
+  .nav ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 35%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-toggle {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    height: 45px;
+    right: 32px;
+    position: absolute;
+    
+    width: 41.6px;
+    z-index: 2;
+  }
+  
+  .nav-toggle:hover { opacity: 0.8; }
+  
+  .nav-toggle .nav-toggle-bar,  .nav-toggle .nav-toggle-bar::after,  .nav-toggle .nav-toggle-bar::before {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: white;
+    content: '';
+    height: 5.6px;
+    width: 100%;
+  }
+  
+  .nav-toggle .nav-toggle-bar { margin-top: 0; }
+  
+  .nav-toggle .nav-toggle-bar::after { margin-top: 12.8px; }
+  
+  .nav-toggle .nav-toggle-bar::before { margin-top:-12.8px ; }
+  
+  .nav-toggle.expanded .nav-toggle-bar { background: transparent; }
+  
+  .nav-toggle.expanded .nav-toggle-bar::after, .nav-toggle.expanded .nav-toggle-bar::before {
+    background: white;
+    margin-top: 0;
+  }
+  
+  .nav-toggle.expanded .nav-toggle-bar::after {
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .nav-toggle.expanded .nav-toggle-bar::before {
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+}
+
+@media (min-width:426px) and  (max-width:991px){
+  .nav {
+    -webkit-transition: left 0.5s ease;
+    -moz-transition: left 0.5s ease;
+    -ms-transition: left 0.5s ease;
+    -o-transition: left 0.5s ease;
+    transition: right 0.5s ease;
+    background: #E14546;
+    color: white;
+    cursor: pointer;
+    font-size: 32px;
+    height: 61vh;
+    right: -24rem;
+    
+    position: fixed;
+    top: 93px;
+    width: 144px;
+    z-index: 1;
+}
+  
+  .nav.expanded { 
+    right: 0;
+    text-align: center; 
+  }
+  
+  .nav ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-toggle {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    height: 45px;
+    right: 32px;
+    position: absolute;
+    
+    width: 41.6px;
+    z-index: 2;
+  }
+  
+  .nav-toggle:hover { opacity: 0.8; }
+  
+  .nav-toggle .nav-toggle-bar,  .nav-toggle .nav-toggle-bar::after,  .nav-toggle .nav-toggle-bar::before {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: white;
+    content: '';
+    height: 5.6px;
+    width: 100%;
+  }
+  
+  .nav-toggle .nav-toggle-bar { margin-top: 0; }
+  
+  .nav-toggle .nav-toggle-bar::after { margin-top: 12.8px; }
+  
+  .nav-toggle .nav-toggle-bar::before { margin-top: -12.8px; }
+  
+  .nav-toggle.expanded .nav-toggle-bar { background: transparent; }
+  
+  .nav-toggle.expanded .nav-toggle-bar::after, .nav-toggle.expanded .nav-toggle-bar::before {
+    background: white;
+    margin-top: 0;
+  }
+  
+  .nav-toggle.expanded .nav-toggle-bar::after {
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .nav-toggle.expanded .nav-toggle-bar::before {
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+}
+
+
+
+
+@media (max-width: 576px) { 
+
+  .header-logo {    
+    width: 40%;    
+}
+
+
+  .third {
+    background-color: #F4F4F4;
+    padding: 0 40px;
+}
+  
+
+  .third-flex-bottom {
+    display: flex;
+    padding: 20px 0;
+}
+
+  .wrapper {
+    padding: 50px 40px;
+  }
+
+  .third-orginize {
+    grid-template-columns: 1fr;
+}
+
+  
+
+button {  
+  
+  margin: 40px 0;
+}
+
+.third-right-section{
+  flex-direction: column;
+
+ }
+
+}
+
+ @media (max-width: 768px) { 
+
+  .first{
+    height:50vh;
+  }
+
+  .header-logo {    
+    width: 50%;    
+}
+
+button {  
+  
+  margin: 40px 0;
+  
+}
+
+.third-right-section{
+  display:grid;
+  grid-template-columns: 1fr;
+
+ }
+
+ .fourth-bottom div{
+  padding:0 50px;
+}
+
+
+ }
+
+@media (max-width:991px) { 
+
+  ul>li:last-child ul {
+    right: 154px;
+    left: auto;
+    top: 90px;
+  }
+  .header-logo{
+    padding:20px 0;
+    width: 50%;  
+  }
+
+  ul li a{
+    padding: 20px 50px;
+  }
+
+  
+  .second .second-organize{
+    grid-template-columns: 1fr;
+  }
+  
+
+  .third-orginize{    
+    grid-template-columns: 1fr;
+  }
+
+  .third .third-flex .box {
+    
+    width: 250px;
+    height: 100%;
+    
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.third .third-flex {
+  display: flex;
+  flex-direction: column;    
+  align-items: center;
+}
+
+.fourth {
+  
+  grid-template-columns: 1fr;
+}
+
+.fourth-bottom{
+  padding:50px 20px;
+  min-height: 50vw;
+}
+
+
+  
+.nav.expanded {
+  
+  
+}
+
+  /*-------------------------------------------*/
+
+  
+
+  .second-right-section{
+    justify-self: center;
+  }
+
+  .second-right-section .row{
+    display:block;  
+    padding: 10px 0;
+  }
+ 
+}
+
+  
+
+
+@media (min-width: 768px) {
+  .third .third-flex {
+  
+    padding: 20px 40px;
+    
+  }
+
+  .third-right-section form {
+    padding:0 10px;
+    
+}
+
+  .third-right-section{
+    padding:0 0 40px 0;
+  }
+}
+
+
+@media (min-width: 992px) { 
+  .first{
+    height:70vh;
+  }
+
+  .second .second-orginize {
+    
+    grid-template-columns: 2fr 1fr;
+ }
+
+ .second-left-section {
+  padding: 10px 100px 10px 0;
+}
+
+.fourth-bottom div:after {
+  content:"";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: -100px auto;
+    width: 0;
+    height: 0;
+    border-top: 50px solid #E14546;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    transform: rotate(90deg);
+}
+
+.fourth-bottom div{
+  padding:0 100px;
+}
+
+
+.fourth {
+  
+  grid-template-columns: 1fr 1fr;
+}
+
+ 
+}
+
+
+@media (min-width: 1200px) { }
+
+
+
+

@@ -148,7 +148,7 @@ header{
   /*-------------------header----------------------------------*/
 
 .first{
-  background: url('Material/stockbilder/shutterstock_180605549.jpg') no-repeat center center;   
+  background: url('Material/Stockbilder/shutterstock_180605549.jpg') no-repeat center center;   
   background-size: cover;  
   background-position:center;  
   height:50vh; 
@@ -524,7 +524,7 @@ footer h2{
 /*------------------------------------Contact page------------------------------*/
 .contact-first{
   background-color:lightgrey;
-  background: url('Material/stockbilder/Amodernofficespace130046pixahive.jpg') no-repeat center center;   
+  background: url('Material/Stockbilder/Amodernofficespace130046pixahive.jpg') no-repeat center center;   
   background-size: cover;  
   background-position:center;  
   
